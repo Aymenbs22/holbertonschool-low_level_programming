@@ -20,4 +20,5 @@ while (i < 16)
 	i++;
 }
 	putchar('\n');
+	return (0);
 }
