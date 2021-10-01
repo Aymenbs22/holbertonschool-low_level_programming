@@ -12,16 +12,9 @@ int main(void)
 {
 	char c;
 
-	for (c = 'a' ; c <= 'd' ; c++)
+	for(c = 'a'; c <= 'z'; c++)
 {
-	putchar(c);
-}
-	for (c = 'f' ; c <= 'p' ; c++)
-{
-	putchar(c);
-}
-	for (c = 'r' ; c <= 'z' ; c++)
-{
+	if(c != 'e' && c != 'q')
 	putchar(c);
 }
 	putchar('\n');
