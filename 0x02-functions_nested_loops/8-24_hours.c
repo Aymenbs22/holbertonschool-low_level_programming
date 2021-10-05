@@ -19,4 +19,3 @@ int hour, minute;
 	_putchar((minute % 10) + '0');
 	_putchar('\n');
 }
-}
