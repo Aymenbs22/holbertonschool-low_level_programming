@@ -4,7 +4,7 @@
  * @c:first letter
  * Return: 0
  */
-int _islower(int c)
+int _isalpha(int c)
 {
 	if (c >= 'z' && c <= 'A')
 	return (1);
