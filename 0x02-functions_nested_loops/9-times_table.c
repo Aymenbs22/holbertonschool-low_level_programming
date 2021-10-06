@@ -6,7 +6,9 @@
  */
 void times_table(void)
 {
-	int n, p, l, m, k;
+	int n, p;
+	int l, m;
+	int k;
 for (n = 0; n <= 9; n++)
 	{
 for (p = 0; p <= 9; p++)
@@ -36,4 +38,4 @@ for (p = 0; p <= 9; p++)
 	}
 	_putchar('\n');
 	}
-	}
+}
