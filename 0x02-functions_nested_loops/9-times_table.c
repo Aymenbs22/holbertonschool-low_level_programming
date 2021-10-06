@@ -4,38 +4,29 @@
  *
  * Return: 0
  */
-void times_table(void)
+void times_table(void);
 {
-	int n, p;
-	int l, m;
-	int k;
-for (n = 0; n <= 9; n++)
-	{
-for (p = 0; p <= 9; p++)
+	int n, p, l;
+
+	for (n = 0; n <= 9; n++)
+{
+	for (p = 0; p < 9; p++)
 	{
 	l = n * p;
 
+	printf("%d", l);
+
+	putchar(',');
 	if (l < 10)
 	{
-	if (l != 0)
-	{
-	_putchar(' ');
-	}
-	_putchar(l + '0');
-	}
-	else
-	{
-	m = l / 10;
-	k = l % 10;
-	_putchar(m + '0');
-	_putchar(k + '0');
-	}
-	if (p != 9)
-	{
-	_putchar(',');
-	_putchar(' ');
+	putchar(' ');
+
 	}
 	}
-	_putchar('\n');
+	l = 9 * n;
+	printf("%d", l);
+	putchar('\n');
 	}
+
+	return (0);
 }
