@@ -1,9 +1,6 @@
 #include "main.h"
 /**
  * print_numbers - get the signe of numbre
- *
- * @tolower - get the
- *
  * Return: 0
  */
 void print_numbers(void)
