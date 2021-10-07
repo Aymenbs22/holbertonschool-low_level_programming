@@ -1,11 +1,11 @@
 #include "main.h"
 /**
-* mul - tests function that prints if integer is positive or negative
-* Return: 0 or 1
+* mul - tests function that prints
 * @a: int
 * @b: int
+* Return: mul
 */
 int mul(int a, int b)
 {
-	return (a * b);
+return (a * b);
 }
