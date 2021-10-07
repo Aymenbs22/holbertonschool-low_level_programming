@@ -1,19 +1,13 @@
 #include "main.h"
 /**
  * print_numbers - get the signe of numbre
- *
- * @tolower - get the
- *
- * Return: 0
  */
 void print_numbers(void)
 {
-	int a = 0;
-while (a < 10)
+int i;
+for (i = 48; i < 58; i++)
 {
-	_putchar(a + 48);
-	a++;
+_putchar(i);
 }
-	_putchar('\n');
-	return (0);
+_putchar('\n');
 }
