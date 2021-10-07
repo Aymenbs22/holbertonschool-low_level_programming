@@ -1,8 +1,8 @@
 #include "main.h"
 /**
 * _isupper - tests function that prints if integer is positive or negative
-* Return: 0 or 1
 * @c: char
+* Return: 0 or 1
 */
 int _isupper(int c)
 {
