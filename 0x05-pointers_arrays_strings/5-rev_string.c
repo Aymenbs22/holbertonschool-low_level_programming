@@ -1,4 +1,4 @@
-#include <main.h>
+#include "main.h"
 	int str_len(char *st);
 /**
  * rev_string - function that returns the length of a string
