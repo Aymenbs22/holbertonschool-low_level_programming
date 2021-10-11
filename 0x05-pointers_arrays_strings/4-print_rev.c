@@ -5,7 +5,7 @@
  * i - int
  *@str:int
 */
-void reverse(char *str)
+void print_rev(char *s)
 {
 	int i = 0;
 
