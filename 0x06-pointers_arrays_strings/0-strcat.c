@@ -5,6 +5,7 @@
  *@dest: char
  * i - 0
  * l - 0
+ * return - dest
 */
 char *_strcat(char *dest, char *src)
 {
