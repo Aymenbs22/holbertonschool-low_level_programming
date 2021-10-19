@@ -28,5 +28,5 @@ i == 0)
 cha[i] -= 32;
 i++;
 }
-return(cha)
+return(cha);
 }
