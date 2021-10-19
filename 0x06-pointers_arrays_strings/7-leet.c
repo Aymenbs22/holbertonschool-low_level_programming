@@ -1,10 +1,8 @@
 #include "main.h"
 /**
- *leet - function that chanfunction that encodes a string into 1337.
- *i - int
- *j - int
+ *leet - function that chanfunction that encodes a string into 1337
  *@num: string
- *Return: Num
+ *Return: num
 */
 char *leet(char *num)
 {
