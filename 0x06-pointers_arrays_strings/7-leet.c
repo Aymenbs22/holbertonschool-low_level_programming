@@ -6,7 +6,7 @@
  *@num: string
  *Return: Num
 */
-char *leet(char *num);
+char *leet(char *num)
 {
 int i = 0;
 int j = 0;
