@@ -7,7 +7,7 @@
  * Return: dest
  * @n : num bytes
 */
-char *_strncpy(char *dest, char *src, int n);
+char *_strncpy(char *dest, char *src, int n)
 {
 int i = 0;
 for (src[i] != '\0' && i < n; i++)
