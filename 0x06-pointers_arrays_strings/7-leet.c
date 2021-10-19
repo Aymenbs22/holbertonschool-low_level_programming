@@ -19,9 +19,9 @@ if (num[i] == a[j])
 {
 num[i] = b[j];
 }
-j++
+j++;
 }
-i++
+i++;
 }
 return (num);
 }
