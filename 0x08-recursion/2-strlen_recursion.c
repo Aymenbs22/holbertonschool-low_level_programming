@@ -7,14 +7,7 @@
 */
 int _strlen_recursion(char *s)
 {
-static int length=0;
-if(*s!=NULL)
-{
-length++;
-_strlen_recursion(++s);
-}
-else
-{
-return length;
-}
+if(*s == 0)
+return 0;
+else return 1 + _strlen_recursion(++s);
 }
