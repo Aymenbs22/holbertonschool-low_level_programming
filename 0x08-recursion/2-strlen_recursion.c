@@ -5,7 +5,7 @@
  *s: char
  * Return: 0
 */
-int _strlen_recursion(char *s);
+int _strlen_recursion(char *s)
 {
 static int length=0;
 if(*s!=NULL)
