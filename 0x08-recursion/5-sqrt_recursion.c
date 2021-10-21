@@ -3,7 +3,7 @@
  * _sqrt - function that prints a string in reverse
  *@k: num!
  *s: char
- *@: root tested
+ *@r: root tested
  * Return: (_sqrt(k, r + 1)
 */
 int _sqrt(int k, int r)
