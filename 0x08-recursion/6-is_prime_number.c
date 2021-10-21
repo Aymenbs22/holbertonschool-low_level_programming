@@ -22,7 +22,7 @@ return (prm(i + 1, n));
  * @n: num
  * Return: (is_it_prm(2, n))
 */
-int is_prime_number(int n);
+int is_prime_number(int n)
 {
 return (prm(2, n));
 }
