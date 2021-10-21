@@ -12,7 +12,7 @@ int _sqrt(int k, int r)
 if ((r * r) == k)
 return (r);
 if (r == k / 2)
-return (1);
+return (-1);
 return (_sqrt(k, r + 1));
 }
 /**
