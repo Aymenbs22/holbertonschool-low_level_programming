@@ -1,11 +1,11 @@
 #include <stdio.h>
 /**
- * main - function that prints a string in reverse
+ * main - program that prints the number of arguments
  *@argc: int!
  *@argv: int
  * Return: 0
 */
-int main(__attribute__((unused))char *argv[], int argc)
+int main(int argc ,__attribute__((unused))char *argv[])
 {
 printf("%d\n", argc - 1);
 return (0);
