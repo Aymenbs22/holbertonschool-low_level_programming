@@ -5,5 +5,5 @@
 #include <string.h>
 int main (int argc, char *argv[]);
 int main(__attribute__((unused))int argc, char *argv[]);
-int main(__attribute__((unused))char *argv[] ,int argc);
+int main(__attribute__((unused))char *argv[], int argc);
 #endif
