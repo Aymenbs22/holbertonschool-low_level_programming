@@ -18,9 +18,11 @@ while (str[i] != '\0')
 i++;
 }
 s = malloc(sizeof(char) * i + 1);
+if (s == NULL)
+return (0);
 while (str[j] != '\0')
 {
-s[i] = str[i];
+s[j] = str[j];
 j++;
 }
 return (s);
