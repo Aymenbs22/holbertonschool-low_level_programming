@@ -3,7 +3,6 @@
 #include <stdio.h>
 /**
  * str_concat - function that concatenates two strings
- * @size: size
  * @s1: char
  * @s2: char
  * Return: s
@@ -39,5 +38,5 @@ s[b] = s2[j];
 b++;
 j++;
 }
-return(s);
+return (s);
 }
