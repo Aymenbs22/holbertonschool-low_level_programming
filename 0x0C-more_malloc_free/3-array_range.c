@@ -10,7 +10,7 @@
 int *array_range(int min, int max)
 {
 	int *ptr;
-	int i = 0;
+	int i;
 	int j = 0;
 	int cn;
 
@@ -21,9 +21,8 @@ int *array_range(int min, int max)
 	if (ptr == NULL)
 		return (NULL);
 	j = min;
-	while (i < cn)
+	while (i = 0; i < cn; i++)
 	{
-		i++;
 		j++;
 		ptr[i] = j;
 	}
