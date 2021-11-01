@@ -1,5 +1,4 @@
 #include <stdio.h>
-#define VER 3
 /**
  * main - void
  * Return: 0
