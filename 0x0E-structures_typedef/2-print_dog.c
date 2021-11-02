@@ -4,7 +4,7 @@
  * print_dog - function that prints a struct dog
  * @d: out
 */
-void print_dog(struct dog *d);
+void print_dog(struct dog *d)
 
 if (d)
 {
