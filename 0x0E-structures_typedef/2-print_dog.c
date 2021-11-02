@@ -1,12 +1,12 @@
 #include "dog.h"
-#include <stdef.h>
+#include <stddef.h>
 #include <stdio.h>
 /**
  * print_dog - function that prints a struct dog
  * @d: out
 */
 void print_dog(struct dog *d)
-
+{
 if (d)
 {
 if (d->name == NULL)
@@ -21,4 +21,5 @@ if (d->owner == NULL)
 	printf("Owner: (nil)\n");
 else
 	printf("Owner: %s\n", d->owner);
+}
 }
