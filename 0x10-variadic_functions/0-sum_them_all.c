@@ -13,7 +13,7 @@ unsigned int i;
 int num = 0;
 
 va_start(argv, n);
-for (i = 0 ;i < n; i++)
+for (i = 0; i < n; i++)
 {
 num += va_arg(argv, int);
 }
