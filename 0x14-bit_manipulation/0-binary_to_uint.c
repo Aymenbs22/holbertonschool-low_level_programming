@@ -13,16 +13,16 @@ int l;
 
 length = strlen(b);
 	if (b == NULL)
-		return(0);
-	for (l = length-1; l >= 0; l--)
+		return (0);
+	for (l = length - 1; l >= 0; l--)
 {
 	if (b[l] != '0' && b[l] != '1')
 		return (0);
 	if (b[l] == '1')
 {
-i += puis;
+		i += puis;
 }
-puis *= 2;
+		puis *= 2;
 }
 		return (i);
 }
