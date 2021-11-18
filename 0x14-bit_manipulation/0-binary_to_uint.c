@@ -11,9 +11,9 @@ unsigned int puis = 1;
 unsigned int length;
 int l;
 
-length = strlen(b);
 	if (b == NULL)
 		return (0);
+	length = strlen(b);
 	for (l = length - 1; l >= 0; l--)
 {
 	if (b[l] != '0' && b[l] != '1')
