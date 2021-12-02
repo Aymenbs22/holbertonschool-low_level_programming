@@ -16,7 +16,7 @@ int i = 0;
 {
 	for (; i < size; i++)
 {
-cmp(array[i]);
+	cmp(array[i]);
 	if (cmp(array[i]) == 1)
 {
 		return (i);
