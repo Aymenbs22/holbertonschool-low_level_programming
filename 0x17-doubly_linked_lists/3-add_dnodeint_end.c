@@ -24,5 +24,6 @@ tmp = *head;
 while (tmp->next)
 tmp = tmp->next;
 tmp->next = Node;
+new->prev = last;
 return (Node);
 }
